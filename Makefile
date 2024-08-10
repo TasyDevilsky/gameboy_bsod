@@ -4,7 +4,7 @@ ifndef GBDK_HOME
 	GBDK_HOME = ../../../
 endif
 
-LCC = $(GBDK_HOME)bin/lcc
+LCC = $(GBDK_HOME)/bin/lcc
 
 # You can set flags for LCC here
 LCCFLAGS += -Wm-yC # GB Color required for Hi Color
@@ -21,7 +21,7 @@ LCCFLAGS += -Wm-yn"GB BSOD"
 # LCCFLAGS += -Wb-random -Wb-max=3 -Wb-v
 
 # For Hi Color:
-PNG2HICOLORGB = $(GBDK_HOME)bin/png2hicolorgb
+PNG2HICOLORGB = $(GBDK_HOME)/bin/png2hicolorgb
 # Use conversion method type 1, Faster Adaptive attribute sizing for Left / Right side of screen, C source output
 # Bank 255 for auto-banking
 # Type
